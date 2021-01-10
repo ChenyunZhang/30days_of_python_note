@@ -1,3 +1,4 @@
+# Python Build-in functions
 # input()
     # input take input the user
 # list()
@@ -12,4 +13,8 @@
 # open()
 # file()
 # help()
+    #The python help function is used to display the documentation of modules, functions, classes, keywords etc.
+# help(sort)
 # dir()
+    #dir() tries to return a valid list of attributes of the object it is called upon.
+# print(dir())

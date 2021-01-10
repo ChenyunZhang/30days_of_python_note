@@ -26,4 +26,6 @@
 # variable can be declared in one line:
 first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
 
-############################### Data Type
+############################### Data Types
+# use type() to check data type
+# list() takes string as its argument

@@ -1,0 +1,15 @@
+import math
+print(math.pi)
+print('Complex number: ', 1+1j)
+print('Multiplying complex numbers: ',(1+1j) * (1-1j))
+print("###########################################")
+print('True == True: ', True == True)
+print('True == False: ', True == False)
+print('False == False:', False == False)
+print('True and True: ', True and True)
+print('True or False:', True or False)
+
+# is: Returns true if both variables are the same object(x is y)
+# is not: Returns true if both variables are not the same object(x is not y)
+# in: Returns True if the queried list contains a certain item(x in y)
+# not in: Returns True if the queried list doesn't have a certain item(x in y)

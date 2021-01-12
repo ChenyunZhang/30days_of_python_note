@@ -68,49 +68,100 @@ import math
 # 8. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
 # Answer:
-x = 0
-y = 2*x - 2
-y = 0
-x = (2+y)//2
+# x = 0
+# y = 2*x - 2
+# y = 0
+# x = (2+y)//2
+# slope_8 = 2
+# print(x)
 
-print(x)
+####################################################################
 # 9. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point (6,10)
 
 # Answer:
+# x1 = 2
+# x2 = 6
+# y1 = 2
+# y2 = 10
+# m = (y2-y1)/(x2-x1)
+# print("m: ",m)
 
-
+####################################################################
 # 10. Compare the slopes in tasks 8 and 9.
 
 # Answer:
+# print(slope_8>m)
 
-# Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
+####################################################################
+# 11. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is 0.
 
-# Find the length of 'python' and 'jargon' and make a falsy comparison statement.
+# Answer:
+# x = -3
+# y = x**2 + 6*x + 9
 
-# Use and operator to check if 'on' is found in both 'python' and 'jargon'
+####################################################################
+# 12. Find the length of 'python' and 'jargon' and make a falsy comparison statement.
 
-# I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+# Answer:
+# print("length of python > length of jargon: ",len("python") > len("jargon"))
 
-# There is no 'on' in both dragon and python
+####################################################################
+# 13. Use and operator to check if 'on' is found in both 'python' and 'jargon'
 
-# Find the length of the text python and convert the value to float and convert it to string
+# Answer:
+# print('"on" in "python" and "on" in "jargon: "',"on" in "python" and "on" in "jargon")
 
-# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+####################################################################
+# 14. I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
 
-# The floor division of 7 by 3 is equal to the int converted value of 2.7.
+# Answer:
+# print('"jargon" is in "I hope this course is not full of jargon: "',"jargon" in "I hope this course is not full of jargon")
 
-# Check if type of '10' is equal to 10
+####################################################################
+# 15. There is no 'on' in both dragon and python
 
-# Check if int('9.8') is equal to 10
+# Answer:
+# print('"on" not in "dragon" and "on" not in "python": ',"on" not in "dragon" and "on" not in "python")
 
+####################################################################
+# 16. Find the length of the text python and convert the value to float and convert it to string
+
+# Answer:
+# print(str(float(len("python"))))
+
+####################################################################
+# 17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+
+# Answer:
+# if number % 2 == 0, then the number is even
+
+####################################################################
+# 18. The floor division of 7 by 3 is equal to the int converted value of 2.7.
+
+# Answer:
+# print("The floor division of 7 by 3 is equal to the int converted value of 2.7: ",7//3 == 2.7)
+
+####################################################################
+# 19. Check if type of '10' is equal to 10
+
+# Answer:
+# print(type("10") == type(10))
+# print("10" is 10)
+
+####################################################################
+# 20. Check if int('9.8') is equal to 10
+
+# Answer:
+# print("int('9.8') is equal to 10: ", int(9.8) == 10)
+
+####################################################################
 # Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
 
 # Enter hours: 40
-
 # Enter rate per hour: 28
-
 # Your weekly earning is 1120
 
+####################################################################
 # Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume someone lives up to hundred years
 
 # Enter number of years you have lived: 100

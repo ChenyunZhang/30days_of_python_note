@@ -24,7 +24,7 @@ even_numbers = [i for i in range(21) if i%2 == 0]
 three_dimen_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flattened_list = [number for row in three_dimen_list for number in row]
 
-# print(flattened_list)
+print(flattened_list)
 
 # note lambda function
 # x = lambda param1,param2: param1+param2

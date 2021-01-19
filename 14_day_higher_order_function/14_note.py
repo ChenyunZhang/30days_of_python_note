@@ -26,6 +26,15 @@ def add_ten():
     return add
 
 closure_result = add_ten()
-print(closure_result(5))  # 15
-print(closure_result(10))  # 20
+# print(closure_result(5))  # 15
+# print(closure_result(10))  # 20
 
+# * A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. 
+# * Decorators are usually called before the definition of a function you want to decorate.
+
+# map(function,iterable)
+list_int = [1,2,3,4,5]
+list_str = map(str,list_int)
+# print(list(list_str))
+number_squared = map(lambda x:x**2, list_int)
+# print(list(number_squared))

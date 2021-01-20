@@ -1,9 +1,27 @@
+countries = ["Estonia", "Finland", "Sweden", "Denmark", "Norway", "Iceland"]
+names = ["Asabeneh", "Lidiya", "Ermias", "Abraham"]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # * 1. Explain the difference between map, filter, and reduce.
+# map returns the same length processed array back
+# filter returns only the elements that satisfy the condition
+# reduce returns a  single value, such as sum or product of an list
 
 # * 2. Explain the difference between higher order function, closure and decorator
+# note higher order function
+# note takes function as parameter, assign function to an variable
+# note closure
+# note python allows a nested function to access the outer scope of the enclosing function.
+# note decorator
+# note a decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying it structure.
 
 # * 3. Define a call function before map, filter or reduce, see examples.
+def sum_arr(i):
+    return i*2
+
+sum_up = map(sum_arr,[1,2,3])
+
+print(list(sum_up))
 
 # * 4. Use for loop to print each country in the countries list.
 

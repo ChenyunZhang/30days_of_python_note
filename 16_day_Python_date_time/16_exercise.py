@@ -1,20 +1,11 @@
-import turtle
+# ## 💻 Exercises: Day 16
 
-t = turtle.Turtle()
-s = int(input("Enter the length of the side of the Squre: "))
- 
-# drawing first side
-t.forward(s) # Forward turtle by s units
-t.left(90) # Turn turtle by 90 degree
- 
-# drawing second side
-t.forward(s) # Forward turtle by s units
-t.left(90) # Turn turtle by 90 degree
- 
-# drawing third side
-t.forward(s) # Forward turtle by s units
-t.left(90) # Turn turtle by 90 degree
- 
-# drawing fourth side
-t.forward(s) # Forward turtle by s units
-t.left(90) # Turn turtle by 90 degree
+# 1. Get the current day, month, year, hour, minute and timestamp from datetime module
+# 1. Format the current date using this format: "%m/%d/%Y, %H:%M:%S")
+# 1. Today is 5 December, 2019. Change this time string to time.
+# 1. Calculate the time difference between now and new year.
+# 1. Calculate the time difference between 1 January 1970 and now.
+# 1. Think, what can you use the datetime module for? Examples:
+#    - Time series analysis
+#    - To get a timestamp of any activities in an application
+#    - Adding posts on a blog 

@@ -6,6 +6,9 @@
 #     print(a)
 # finally:
 #     print("bye")
+
+print(int("a"))
+
     
 # try:
 #     code in this block if things go well

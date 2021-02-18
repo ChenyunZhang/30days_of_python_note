@@ -18,7 +18,7 @@
 # numbers = [(i, i * i) for i in range(11)]
 # print(numbers)
 
-even_numbers = [i for i in range(21) if i%2 == 0]
+even_numbers = [i for i in range(21) if i % 2 == 0]
 # print(even_numbers)
 
 three_dimen_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -49,3 +49,19 @@ print(flattened_list)
 # # Multiple variables
 # multiple_variable = lambda a, b, c: a ** 2 - 3 * b + 4 * c
 # print(multiple_variable(5, 5, 3))
+
+
+# note
+# ******************************************************
+
+# x if y else z is the syntax for the expression you're returning for each element. Thus you need:
+
+# [ x if x%2 else x*100 for x in range(1, 10) ]
+# The confusion arises from the fact you're using a filter in the first example, but not in the second. In the second example you're only mapping each value to another, using a ternary-operator expression.
+
+# With a filter, you need:
+
+# [ EXP for x in seq if COND ]
+# Without a filter you need:
+
+# [ EXP for x in seq ]

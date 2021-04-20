@@ -2,9 +2,18 @@ import React from 'react'
 
 function Projects() {
     return (
-        <div>
-            projects
+        <>
+        <div className="cards">
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
         </div>
+        </>
     )
 }
 

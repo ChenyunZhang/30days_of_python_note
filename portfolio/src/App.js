@@ -7,7 +7,7 @@ import Projects from "./Components/Projects"
 import Blogs from "./Components/Blogs"
 import Works from "./Components/Works"
 import Home from "./Components/Home"
-
+import Footer from "./Components/Footer"
 
 function App(props) {
   return (
@@ -17,6 +17,7 @@ function App(props) {
             <Route exact path="/">
               <Nav />
               <Home />
+              <Footer />
             </Route>
             
             <Route exact path="/project">

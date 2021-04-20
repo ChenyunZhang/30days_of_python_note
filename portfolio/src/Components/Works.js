@@ -3,7 +3,18 @@ import React from 'react'
 function Works() {
     return (
         <div>
-            Works
+        <div className="cards">
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+            <div className="card">1</div>
+        </div>
         </div>
     )
 }

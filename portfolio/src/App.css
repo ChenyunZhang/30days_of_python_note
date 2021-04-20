@@ -102,3 +102,42 @@ nav{
 .brand:hover{
   color: grey;
 }
+
+div.cards {
+  display: grid;
+  margin: 10vh 15vw 0 15vw;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+div.card{
+  height: 20vh;
+  border: 2px solid #e7e7e7; 
+  border-radius: 4px;
+  padding: .5rem;
+}
+
+@media (max-width: 992px) {
+  div.cards {
+  display: grid;
+  margin: 10vh 15vw 0 15vw;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+}
+
+@media (max-width: 660px) {
+  div.cards {
+  display: grid;
+  margin: 10vh 15vw 0 15vw;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+}
+
+div.footer a i{
+  height:200px;
+  width:300px;
+}
